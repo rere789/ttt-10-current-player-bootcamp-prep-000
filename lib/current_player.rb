@@ -10,3 +10,13 @@ def turn_count(turns)
   end 
   counter.length.to_i 
 end 
+
+def current_player(board)
+  if turn_count.odd?
+    puts "X turn"
+  else 
+    puts "O turn"
+  end
+end 
+    
+    
