@@ -5,10 +5,10 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " " ]
 def turn_count(board_array)
   counter = 0 
   board_array.each do |turn|
-    if board_array[] == "X" 
+    if board_array[1..9] == "X" 
       puts "It's O turn"
     elsif
-      board_array[] == "O"
+      board_array[1..9] == "O"
       puts "It's X turn"
       counter += 1 
   end
