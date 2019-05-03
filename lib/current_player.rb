@@ -9,6 +9,7 @@ def turn_count(turn)
       counter += 1 
   end
 end 
+  counter.length.to_i
 end
 
 # def turn_count(turn)
