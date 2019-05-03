@@ -4,7 +4,7 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " " ]
 
 def turn_count(board_array)
   counter = 0 
-  if board_array == "X"
+  if board_array[] == "X"
     puts "It's O turn"
   else 
     puts "It's X turn "
