@@ -2,11 +2,27 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " " ]
 
 
 
-def turn_count(board_array)
+def turn_count(turn)
   counter = [] 
-  board_array.each do |turn|
-    if board_array == "X" || board_array == "O"
+  turn.each do |turns|
+    if turns == "X" || turns == "O"
       counter += 1 
   end
 end 
 end
+
+# def turn_count(turn)
+#   #counter = 1
+#   move_count = []
+#   turn.each do |unit|
+#     #counter = 0
+#     if unit == "X" || unit == "O"
+#       #puts "spot taken"
+#       move_count.push(1)
+#     #else 
+#       #puts "spot free"
+#       #counter += 1
+#     end 
+#   end 
+#   move_count.length.to_i
+# end 
