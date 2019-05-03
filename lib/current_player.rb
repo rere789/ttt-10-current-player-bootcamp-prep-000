@@ -3,7 +3,7 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " " ]
 
 
 def turn_count(board_array)
-  counter = 0 
+  counter = [] 
   board_array.each do |turn|
     if board_array[1..9] == "X" 
       puts "It's O turn"
